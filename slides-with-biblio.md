@@ -1,4 +1,3 @@
-
 :::: {.columns}
 ::: {.column width="50%"}
 
