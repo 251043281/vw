@@ -616,60 +616,6 @@ style="position: absolute; bottom: 40px; right: 20px; font-size: 0.6em; opacity:
 
 <div class="columns">
 <div class="column" style="width:50%;">
-<h2 id="presentation-title-1">Presentation Title</h2>
-<h4 id="yip-jia-xin-1">Yip Jia Xin</h4>
-<h4 id="matric-no-251043281-1">Matric No: 251043281</h4>
-<h4 id="ur6527001---materials-engineering-1">UR6527001 - Materials
-Engineering</h4>
-<h4 id="universiti-malaysia-perlis-1">Universiti Malaysia Perlis</h4>
-<audio id="bg-music" src="media/audio/sb.m4a" loop>
-</audio>
-<div id="audio-credit"
-style="position: absolute; bottom: 40px; right: 20px; font-size: 0.6em; opacity: 0.6;">
-<p>Music: “Adrift” by Scott Buckley (CC BY 4.0)</p>
-</div>
-<script>
-  document.addEventListener('DOMContentLoaded', () => {
-    const audio = document.getElementById('bg-music');
-    const credit = document.getElementById('audio-credit');
-
-    // hide credit by default
-    credit.style.display = 'none';
-
-    const test = new Audio('media/audio/bgm.mp3');
-
-    test.addEventListener('canplaythrough', () => {
-      // bgm.mp3 exists → use it, keep credit hidden
-      audio.src = 'media/audio/bgm.mp3';
-    }, { once: true });
-
-    test.addEventListener('error', () => {
-      // bgm.mp3 missing → sb.m4a will play → show credit
-      credit.style.display = 'block';
-    }, { once: true });
-
-    document.addEventListener('click', () => {
-      if (Reveal.getIndices().h === 0) {
-        audio.volume = 0.5;
-        audio.play();
-      }
-    }, { once: true });
-
-    Reveal.on('slidechanged', (event) => {
-      if (event.indexh > 0) { audio.pause(); }
-      else { audio.play(); }
-    });
-  });
-</script>
-</div><div class="column" style="width:50%;">
-<p><img data-src="media/pics/logo1.png" /></p>
-</div>
-</div>
-</section>
-<section class="slide level1">
-
-<div class="columns">
-<div class="column" style="width:50%;">
 <h2 id="effects-of-pressure-machine-1">Effects of Pressure (Machine
 1)</h2>
 <p>Analysis of the impact of <strong>Pressure</strong> on
