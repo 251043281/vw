@@ -87,8 +87,8 @@ Analysis of the impact of **Pressure** on **PartResistance**:
 Analysis of the impact of **Temperature** on **PartResistance**:
 
 - **Significance**: The statistical test yielded a p-value of **0.0000**.
-- **Optimization**: Maintaining lower temperatures generally results in lower resistance, aligning with the "lower is better" goal.
-- **Conclusion**: Temperature acts as a critical process variable [@carnot1824].
+- **Optimization**: Increasing the temperature generally reduces part resistance, supporting the "lower is better" objective.
+- **Conclusion**: Temperature acts as a critical process variable.
 
 :::
 
@@ -97,6 +97,14 @@ Analysis of the impact of **Temperature** on **PartResistance**:
 :::
 
 ::::
+
+---
+
+<!-- Build: 2026-07-01T17:45:18.836889 -->
+
+---
+
+
 
 ---
 
