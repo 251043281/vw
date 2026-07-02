@@ -100,10 +100,6 @@ Analysis of the impact of **Temperature** on **PartResistance**:
 
 ---
 
-<!-- Build: 2026-07-01T17:45:18.836889 -->
-
----
-
 
 
 ---
